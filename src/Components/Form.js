@@ -12,7 +12,7 @@ const Form = () => {
             <input type="email"></input>
             <label>Subject</label>
             <input type="text"></input>
-            <label>Your Name</label>
+            <label>Message</label>
             <textarea rows="6" placeholder="Enter your Message"/>
             <button className="btn">SUBMIT</button>
         </form>
