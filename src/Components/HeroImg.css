@@ -6,7 +6,7 @@
 }
 .hero-img::before{
     content: "";
-    background-image: url(C:\Users\aaron\Downloads\z-designers\src\Assets\Hero-bg.png);
+    background-color: black;
     background-size: cover;
     background-position: center top;
     height: 100%;
