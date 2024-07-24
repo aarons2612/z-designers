@@ -9,7 +9,7 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who we are!</h1>
-            <p>We are a 3D designing Company. We provide solution on we development also</p>
+            <p>Welcome to our company, where innovation meets precision! We specialize in designing 3D mechanical parts, providing top-notch 3D printing services, and delivering cutting-edge web development, UI design, and graphic design solutions. Our dedicated team ensures each project is executed with excellence, bringing your vision to life with unparalleled creativity and technical expertise.</p>
             <Link to="/contact" ><button className="btn">CONTACT</button></Link>
         </div>
         <div className="right">

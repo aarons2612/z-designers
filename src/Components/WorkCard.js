@@ -12,7 +12,7 @@ const WorkCard = (props) => {
                     <p>{props.text}</p>
                     <div className="ser-btns">
                         <NavLink to={props.view} className="btn">View</NavLink>
-                        <NavLink to="url.com" className="btn">Source</NavLink>
+                        <NavLink to="https://github.com/aarons2612/z-designers" className="btn">Source</NavLink>
                     </div>
                 </div>
             </div>

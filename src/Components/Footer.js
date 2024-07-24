@@ -19,19 +19,20 @@ const Footer = () => {
             
             <div className="phone">
             <h4><FaPhone size={20} style={{color:"white", marginRight:"2rem"}}/>+91 7092631585</h4>
+            <h4><FaPhone size={20} style={{color:"white", marginRight:"2rem"}}/>+91 9655484162</h4>
             </div>
             <div className="email">
-            <h4><FaMailBulk size={20} style={{color:"white", marginRight:"2rem"}}/>zdesigners@gmail.com</h4>
+            <h4><FaMailBulk size={20} style={{color:"white", marginRight:"2rem"}}/>zdesigners07@gmail.com</h4>
             </div>
             </div>
 
             <div className="right">
                 <h4>About the company</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. </p>
+                <p>©Z-designers. All rights reserved. Specializing in 3D Mechanical Design, 3D Printing, Web Development, UI Design, and Graphic Design. Crafted with care and precision to bring your vision to life.</p>
                 <div className="social">
                 <Link to="https://www.facebook.com/share/vzsfe59KN4JF8Ryv/?mibextid=qi2Omg"><FaFacebook size={30} style={{color:"white", marginRight:"1rem"}}/></Link>
-                <FaInstagram size={30} style={{color:"white", marginRight:"1rem"}}/>
-                <FaLinkedin size={30} style={{color:"white", marginRight:"1rem"}}/>
+                <Link to="https://www.instagram.com/z.designers_?igsh=bTlxNGt1Y3pjY3p1"><FaInstagram size={30} style={{color:"white", marginRight:"1rem"}}/></Link>
+                <Link to="https://www.linkedin.com/in/z-designer-192147301"><FaLinkedin size={30} style={{color:"white", marginRight:"1rem"}}/></Link>
                 </div>
             </div>
         </div>

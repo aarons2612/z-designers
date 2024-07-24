@@ -1,23 +1,24 @@
-import pro1 from "../Assets/intro-bg.jpeg";
-import pro2 from "../Assets/Hero-bg.png";
+import ser1 from "../Assets/ser1.jpg";
+import ser2 from "../Assets/ser2.png";
+import ser3 from "../Assets/ser3.png";
 
 const WorkCardData =[
     {
-        imgsrc: pro1,
+        imgsrc: ser1,
         title: "3-D mechanical Design",
         text: " We create 3d designs with good rendering and it is also easy to implement",
-        view: "url.com",
+        view: "https://drive.google.com/drive/folders/1KmsDue5we3sWC557J5sWQbpW3wPGnPey?usp=sharing",
         source: "url.com"
     },
     {
-        imgsrc: pro2,
+        imgsrc: ser2,
         title: "Web Design",
         text: "We create 3d designs with good rendering and it is also easy to implement",
-        view: "url.com",
-        source: "url.com"
+        view: "https://zdesigners.netlify.app/",
+        source: "https://github.com/aarons2612/z-designers"
     },
     {
-        imgsrc: pro1,
+        imgsrc: ser3,
         title: "UI Design",
         text: "We create 3d designs with good rendering and it is also easy to implement",
         view: "url.com",
