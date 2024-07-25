@@ -21,7 +21,7 @@ const WorkCardData =[
         imgsrc: ser3,
         title: "UI Design",
         text: "We create 3d designs with good rendering and it is also easy to implement",
-        view: "url.com",
+        view: "https://zdesigners.netlify.app/",
         source: "url.com"
     },
 ];
