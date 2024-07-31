@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import HeroImg from '../Components/HeroImg'
-import AboutContent from '../Components/AboutContent'
+import AboutContent from '../Components/AboutContent' 
 
 const About = () => {
   return (
@@ -10,6 +10,7 @@ const About = () => {
       <Navbar/>
       <HeroImg heading="ABOUT US" text="Providing solutions on 3D Mechanical Designs"/>
       <AboutContent/>
+      <gallery/>
       <Footer/>
     </div>
   )
