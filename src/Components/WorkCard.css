@@ -14,7 +14,7 @@
 
 .service-card{
     background: #1a1919;
-    padding: 1.2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .service-card img{
@@ -45,4 +45,8 @@
         margin: auto;
         grid-template-columns: 1fr;
     }
+    .service-card{
+    background: #1a1919;
+    padding: 1.2rem 2.5rem
+}
 }
