@@ -4,6 +4,8 @@ import Footer from '../Components/Footer'
 import HeroImg from '../Components/HeroImg'
 import AboutContent from '../Components/AboutContent' 
 
+
+
 const About = () => {
   return (
     <div>
