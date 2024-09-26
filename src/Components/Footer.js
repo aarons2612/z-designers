@@ -28,7 +28,7 @@ const Footer = () => {
 
             <div className="right">
                 <h4>About the company</h4>
-                <p>©Z-designers. All rights reserved. Specializing in 3D Mechanical Design, 3D Printing, Web Development, UI Design, and Graphic Design. Crafted with care and precision to bring your vision to life.</p>
+                <p>©Z-designers. All rights reserved. Specializing in 3D Mechanical Design, 3D Printing and Web Development. Crafted with care and precision to bring your vision to life.</p>
                 <div className="social">
                 <Link to="https://www.facebook.com/share/vzsfe59KN4JF8Ryv/?mibextid=qi2Omg"><FaFacebook size={30} style={{color:"white", marginRight:"1rem"}}/></Link>
                 <Link to="https://www.instagram.com/z.designers_?igsh=bTlxNGt1Y3pjY3p1"><FaInstagram size={30} style={{color:"white", marginRight:"1rem"}}/></Link>
