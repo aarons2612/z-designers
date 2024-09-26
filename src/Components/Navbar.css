@@ -26,10 +26,6 @@
 
 }
 
-.nav-menu li a:hover{
-    background-color: azure;
-}
-
 .hamburger{
     display: none;
 }
