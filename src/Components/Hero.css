@@ -1,10 +1,10 @@
-.mask{
+.mask {
     width: 100%;
     height: 100vh;
     position: relative;
 }
 
-.intro-img{
+.intro-img {
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -12,7 +12,7 @@
     object-fit: cover;
 }
 
-.mask::after{
+.mask::after {
     content: "";
     width: 100%;
     height: 100%;
@@ -23,41 +23,76 @@
     opacity: 0.8;
 }
 
-.hero{
+.hero {
     height: 100%;
     width: 100%;
 }
 
-.hero .content{
+.hero .content {
     position: absolute;
-    transform: translate(-50%,-50%);
-    top:50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
     text-align: center;
+    color: white;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
-.hero .content h1{
+.hero .content h1 {
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
+    opacity: 1;
 }
 
-.hero .content p{
+.hero .content p {
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
-.content .btn{
+.buttons .btn {
     margin: 1rem 0.2rem;
 }
 
-@media screen and (max-width:640px){
-    .hero .content h1{
+/* Infinite Typing animation */
+.typing-animation {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: typing 3.5s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+/* Typing keyframes */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 45% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+/* Fade-in/fade-out on scroll */
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-out {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none; /* Disable interaction when faded out */
+}
+
+@media screen and (max-width: 640px) {
+    .hero .content h1 {
         font-size: 3rem;
     }
     
-    .hero .content p{
+    .hero .content p {
         font-size: 1.4rem;
-        
     }
 }
